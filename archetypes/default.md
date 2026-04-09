@@ -1,13 +1,11 @@
 ---
 title: '{{ replace .Name "-" " " | title }}'
-date: {{现在是 .Date }}
-draft: true
+date: {{ .Date }}
+draft: false
 categories: []
 tags: []
 ---
 
 **TL;DR:**
 
----
-
-Your content starts here.
+<!-- Your content starts here -->

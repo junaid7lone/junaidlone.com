@@ -1,0 +1,191 @@
+/* systematica — PaperMod cyberpunk dark override */
+
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #12121a;
+  --bg-tertiary: #1a1a24;
+  --text-primary: #e8e8f0;
+  --text-secondary: #a0a0b0;
+  --accent-cyan: #00f3ff;
+  --accent-magenta: #ff00ff;
+  --accent-green: #00ff9d;
+  --accent-warn: #ffaa00;
+  --border-color: #1f1f2e;
+  --code-bg: #0d0d14;
+  --card-bg: rgba(18, 18, 26, 0.7);
+}
+
+html[data-theme='dark'] body,
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  text-shadow: 0 0 2px transparent;
+  transition: text-shadow 0.2s;
+}
+h1:hover, h2:hover, h3:hover {
+  text-shadow: 0 0 12px var(--accent-magenta);
+}
+
+/* Links */
+a {
+  color: var(--accent-cyan);
+}
+a:hover {
+  color: var(--accent-magenta);
+  text-shadow: 0 0 8px var(--accent-magenta);
+}
+
+/* Header */
+.header {
+  background: rgba(10, 10, 15, 0.9);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+}
+.site-title {
+  color: var(--accent-cyan) !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Profile / hero section */
+.profile {
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+  border-bottom: 1px solid var(--border-color);
+}
+.profile .avatar {
+  border: 2px solid var(--accent-cyan);
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.3);
+  transition: 0.3s;
+}
+.profile .avatar:hover {
+  border-color: var(--accent-magenta);
+  box-shadow: 0 0 25px rgba(255, 0, 255, 0.4);
+}
+
+/* Post cards / list items */
+.post {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.post:hover, .archive-item:hover {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.12);
+  transform: translateY(-2px);
+}
+.post-meta {
+  color: var(--text-secondary);
+  font-size: 0.85em;
+}
+
+/* Post content */
+.post-content {
+  line-height: 1.7;
+}
+.post-content code {
+  background: var(--code-bg);
+  border: 1px solid var(--border-color);
+  color: var(--accent-green);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.post-content pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+}
+.post-content pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: var(--accent-green);
+}
+
+/* Tags */
+.badge, .tag {
+  background: transparent;
+  border: 1px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+  font-size: 0.75em;
+  padding: 2px 8px;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+.badge:hover, .tag:hover {
+  background: var(--accent-cyan);
+  color: #000;
+  box-shadow: 0 0 8px var(--accent-cyan);
+}
+
+/* Archive page */
+.archive-term {
+  color: var(--accent-cyan);
+  font-family: monospace;
+  font-size: 1.1em;
+}
+
+/* Search */
+.search-input {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 10px 14px;
+  border-radius: 6px;
+  width: 100%;
+}
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 10px rgba(0, 243, 255, 0.2);
+}
+
+/* Buttons */
+.btn {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+  transition: 0.2s;
+}
+.btn:hover {
+  background: var(--accent-cyan);
+  color: #000;
+  box-shadow: 0 0 12px var(--accent-cyan);
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-cyan);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-magenta);
+}
+
+/* Utility: glow text */
+.glow {
+  text-shadow: 0 0 10px var(--accent-cyan);
+}

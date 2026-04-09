@@ -1,90 +1,120 @@
-baseURL = 'https://jojo.dev/'
-languageCode = 'en-us'
-title = 'systematica'
-theme = 'stack'
+baseURL = "https://jojo.dev/"
+languageCode = "en-us"
+title = "systematica"
+theme = "PaperMod"
 
-paginate = 10
-enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
+[pagination]
+pagerSize = 10
 
 [params]
-  mainSections = ['post']
-  featuredImageField = 'image'
-  rssFullContent = true
+defaultTheme = "dark"
+disableThemeToggle = false
+ShowShareButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowWordCount = true
+ShowLastMod = true
+defaultContentType = "posts"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/"
 
-  [params.footer]
-    since = 2025
-    author = true
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/Mojojojomomo"
 
-  [params.dateFormat]
-    default = 'January 2, 2006'
-    articles = 'January 2, 2006'
-
-  [params.sidebar]
-    compact = false
-    emoji = '⚡'
-    subtitle = 'random hacks · systems thinking · code & chaos'
-
-  [params.widgets]
-    homepage = [
-        { type = "search" },
-        { type = "archives", params = { limit = 5 } },
-        { type = "categories", params = { limit = 10 } },
-    ]
-    page = [
-        { type = "toc" },
-    ]
-
-  [params.opengraph]
-    images = ['icon.png']
-    twitterSite = '@Mojojojomomo'
-    twitterCreator = '@Mojojojomomo'
+[[params.socialIcons]]
+name = "telegram"
+url = "https://t.me/Mojojojomomo_hermes_bot"
 
 [menu]
-  [[menu.main]]
-    identifier = 'home'
-    name = '⌂ home'
-    url = '/'
-    weight = -100
+[[menu.main]]
+identifier = "home"
+name = "⌂ home"
+url = "/"
+weight = 1
 
-  [[menu.main]]
-    identifier = 'archives'
-    name = '⟁ archives'
-    url = '/archives'
-    weight = 90
+[[menu.main]]
+identifier = "archives"
+name = "⟁ archives"
+url = "/archives"
+weight = 10
 
-  [[menu.main]]
-    identifier = 'categories'
-    name = '◉ categories'
-    url = '/categories'
-    weight = 100
+[[menu.main]]
+identifier = "search"
+name = "⌕ search"
+url = "/search"
+weight = 20
 
-  [[menu.main]]
-    identifier = 'tags'
-    name = '⌗ tags'
-    url = '/tags'
-    weight = 110
+[[menu.main]]
+identifier = "categories"
+name = "◉ categories"
+url = "/categories"
+weight = 30
 
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = true
-    style = 'monokai'
+[[menu.main]]
+identifier = "tags"
+name = "⌗ tags"
+url = "/tags"
+weight = 40
 
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
+[outputs]
+home = [ "HTML", "RSS", "JSON",]
 
-[taxonomies]
-  category = 'categories'
-  tag = 'tags'
-  series = 'series'
+[params.assets]
+disableFingerprinting = false
 
-  [outputs]
-  home = ['HTML', 'RSS']
+[params.editURL]
+enable = false
+
+[params.profileMode]
+enabled = true
+title = "systematica"
+subtitle = "random hacks · systems thinking · code & chaos"
+imageUrl = "/img/avatar.png"
+imageTitle = "systematica"
+imageWidth = 120
+imageHeight = 120
+[[params.profileMode.buttons]]
+name = "Archives"
+url = "/archives"
+
+[[params.profileMode.buttons]]
+name = "Search"
+url = "/search"
+
+[params.homeInfoParams]
+Title = "systematica"
+Content = "**random hacks · systems thinking · code & chaos**\n\nNo ads. No tracking. Minimalist dark-mode blog for technical scribbles.\n"
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 3
+
+[params.label]
+text = "systematica"
+icon = "/img/avatar.png"
+
+[params.customCSS]
+enable = true
+files = [ "css/custom.css",]
+
+[services.googleAnalytics]
+ID = ""
+
+[markup.highlight]
+style = "paraiso-dark"
+lineNos = true
+lineNumbersInTable = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.extensions]
+linkify = true
