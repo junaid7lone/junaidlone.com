@@ -1,0 +1,13 @@
+# Built site
+public/
+resources/_gen/
+
+# OS / editor
+.DS_Store
+*~
+.idea/
+.vscode/
+*.swp
+
+# Hugo
+.hugo_build.lock
