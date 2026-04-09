@@ -69,22 +69,6 @@ disableFingerprinting = false
 [params.editURL]
 enable = false
 
-[params.profileMode]
-enabled = true
-title = "systematica"
-subtitle = "random hacks · systems thinking · code & chaos"
-imageUrl = "/img/avatar.png"
-imageTitle = "systematica"
-imageWidth = 120
-imageHeight = 120
-[[params.profileMode.buttons]]
-name = "Archives"
-url = "/archives"
-
-[[params.profileMode.buttons]]
-name = "Search"
-url = "/search"
-
 [params.homeInfoParams]
 Title = "systematica"
 Content = "**random hacks · systems thinking · code & chaos**\n\nNo ads. No tracking. Minimalist dark-mode blog for technical scribbles.\n"

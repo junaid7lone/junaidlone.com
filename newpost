@@ -19,7 +19,7 @@ DATE=$(date +%Y-%m-%d)
 FILENAME="${DATE}-${SLUG}.md"
 
 # Build frontmatter
-cat << EOF > "content/post/${FILENAME}"
+cat << EOF > "content/posts/${FILENAME}"
 ---
 title: '${TITLE}'
 date: ${DATE}T00:00:00-07:00
@@ -34,6 +34,6 @@ tags: [$(echo $TAGS | sed 's/,/, /g')]
 
 EOF
 
-echo "Created: content/post/${FILENAME}"
+echo "Created: content/posts/${FILENAME}"
 echo "Edit the file to add your content."
 echo "Then run: hugo --minify && hugo server"
