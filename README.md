@@ -2,7 +2,7 @@
 
 > random hacks · systems thinking · code & chaos
 
-A minimal, dark-mode-first blog for technical scribbles. Built with [Hugo](https://gohugo.io/) + [Stack theme](https://github.com/CaiJimmy/hugo-theme-stack). Static = secure = fast.
+Minimalist, centered, dark-mode-first blog for technical scribbles. PaperMod theme with cyberpunk neon accents. Built with [Hugo](https://gohugo.io/) + [Stack theme](https://github.com/CaiJimmy/hugo-theme-stack). Static = secure = fast.
 
 ## Quick Start
 
@@ -28,7 +28,7 @@ blog/
 ├── content/post/       → Your posts (markdown)
 ├── content/about.md    → About page
 ├── archetypes/         → Post frontmatter template
-├── themes/stack/       → Theme (git submodule)
+├── themes/PaperMod/       → Theme (git submodule)
 ├── hugo.toml           → Site configuration
 ├── assets/css/         → Custom CSS (overrides)
 ├── public/             → Generated site (commit this!)
