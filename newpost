@@ -1,0 +1,39 @@
+#!/bin/bash
+# newpost — create a new blog post
+# Usage: newpost "Title of the Post" ["hacking, bash"]
+# Categories/tags are optional comma-separated lists.
+
+set -e
+
+if [ $# -lt 1 ]; then
+  echo "Usage: newpost \"Post Title\" [categories] [tags]"
+  echo "Example: newpost \"My Hack\" \"hacking,tools\" \"bash,one-liners\""
+  exit 1
+fi
+
+TITLE="$1"
+CATS="${2:-}"
+TAGS="${3:-}"
+SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/-\+/-/g' | sed 's/^-\|-$//g')
+DATE=$(date +%Y-%m-%d)
+FILENAME="${DATE}-${SLUG}.md"
+
+# Build frontmatter
+cat << EOF > "content/post/${FILENAME}"
+---
+title: '${TITLE}'
+date: ${DATE}T00:00:00-07:00
+draft: false
+categories: [$(echo $CATS | sed 's/,/, /g')]
+tags: [$(echo $TAGS | sed 's/,/, /g')]
+---
+
+**TL;DR:**
+
+<!-- Your content starts here -->
+
+EOF
+
+echo "Created: content/post/${FILENAME}"
+echo "Edit the file to add your content."
+echo "Then run: hugo --minify && hugo server"
