@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mindset on systematica</title><link>https://jojo.dev/categories/mindset/</link><description>Recent content in Mindset on systematica</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Apr 2025 15:30:00 -0700</lastBuildDate><atom:link href="https://jojo.dev/categories/mindset/index.xml" rel="self" type="application/rss+xml"/><item><title>The Art of System Hacking: Mindset Over Tools</title><link>https://jojo.dev/post/the-art-of-system-hacking/</link><pubDate>Tue, 08 Apr 2025 15:30:00 -0700</pubDate><guid>https://jojo.dev/post/the-art-of-system-hacking/</guid><description>&lt;p&gt;&lt;strong&gt;TL;DR: Hacking systems isn&amp;rsquo;t about tools—it&amp;rsquo;s about understanding how things fit together.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="the-three-layer-model"&gt;The Three-Layer Model
+&lt;/h2&gt;&lt;p&gt;Every system (technical or social) breaks down into three layers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The Visible Layer&lt;/strong&gt; - What you see on the surface. APIs, UIs, documented procedures.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Structural Layer&lt;/strong&gt; - How components connect. Network topology, permissions, trust relationships.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Assumption Layer&lt;/strong&gt; - What the designers believed would never happen.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The hack always lives in the gap between the Structural and Assumption layers.&lt;/p&gt;
+&lt;h2 id="practical-exercise"&gt;Practical Exercise
+&lt;/h2&gt;&lt;p&gt;Next time you&amp;rsquo;re trying to &amp;ldquo;get into&amp;rdquo; something (a system, an organization, a codebase), map these three layers on paper before firing up Burp or writing a script.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll find the attack surface shrinks dramatically—and the paths become obvious.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Posted from the command line. No GUI. All business.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
