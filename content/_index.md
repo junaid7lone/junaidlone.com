@@ -5,15 +5,11 @@ draft: false
 
 ## Build signal, attract opportunity.
 
-I build systems that turn attention into leverage:
+I work with **HSBC (UK)** via **Greenrich (Scotland)**.
 
-- AI automation
-- trading systems
-- content engines
-- web products
-- weirdly useful workflows
+Outside work, I’m deep in **AI, agents, and automation** — building systems that compound, capture signal, and make useful things easier to find.
 
-If you want a builder who can make things *move* — not just make them look good — this is the place.
+I keep unusually close track of commits, changes, and the moving parts.
 
 ### Open to
 
@@ -31,6 +27,7 @@ If you want a builder who can make things *move* — not just make them look goo
 
 ### Reach me
 
+- Email: [junaid7lone@gmail.com](mailto:junaid7lone@gmail.com)
 - Blog: [/blog](/posts)
 
 > If it’s useful, elegant, and slightly dangerous, I probably care about it.
