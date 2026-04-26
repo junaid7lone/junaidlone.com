@@ -8,7 +8,7 @@ draft: false
 
 This site is the public face of the work: experiments, notes, and the occasional thing that might actually be useful.
 
-**Open to:** automation consulting, AI workflows, content systems, and interesting partnerships.
+**Current focus:** building, learning, and shipping useful AI/automation systems.
 
 ---
 

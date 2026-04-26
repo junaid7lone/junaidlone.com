@@ -11,13 +11,13 @@ Outside work, I’m deep in **AI, agents, and automation** — building systems 
 
 I keep unusually close track of commits, changes, and the moving parts.
 
-### Open to
+### Focus
 
-- automation consulting
-- AI workflow design
-- content repurposing systems
-- opportunity engines
-- collaborations that pay attention
+- building AI/agent workflows
+- automation experiments
+- content systems
+- useful products
+- collaborations when the fit is right
 
 ### Current focus
 
