@@ -16,7 +16,7 @@ This site is the public face of the work: experiments, notes, and the occasional
 
 All posts are written in markdown, committed to git, and built with Hugo. Static site = no database = fewer ways to get owned.
 
-**Reach me:** [Telegram](https://t.me/Mojojojomomo_hermes_bot)
+**Reach me:** [Email](mailto:junaid7lone@gmail.com)
 
 ---
 

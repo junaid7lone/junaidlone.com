@@ -58,7 +58,7 @@ If a thought is worth keeping, it should be able to become:
 - a blog post
 - a LinkedIn post
 - a short email update
-- a Telegram message
+- a direct email note
 - a direct outreach note
 
 The machine should do the repackaging.

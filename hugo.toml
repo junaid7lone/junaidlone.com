@@ -26,8 +26,8 @@ name = "twitter"
 url = "https://twitter.com/Mojojojomomo"
 
 [[params.socialIcons]]
-name = "telegram"
-url = "https://t.me/Mojojojomomo_hermes_bot"
+name = "email"
+url = "mailto:junaid7lone@gmail.com"
 
 [menu]
 [[menu.main]]
