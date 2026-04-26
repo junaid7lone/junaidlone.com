@@ -31,7 +31,6 @@ If you want a builder who can make things *move* — not just make them look goo
 
 ### Reach me
 
-- Telegram: [@Mojojojomomo_hermes_bot](https://t.me/Mojojojomomo_hermes_bot)
 - Blog: [/blog](/posts)
 
 > If it’s useful, elegant, and slightly dangerous, I probably care about it.

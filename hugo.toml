@@ -71,7 +71,7 @@ enable = false
 
 [params.homeInfoParams]
 Title = "Junaid Lone"
-Content = "**AI automation · trading systems · opportunity engines**\n\nI build systems that turn attention into leverage: websites, content loops, outreach, and agent workflows. If you're here for collaboration, automation, or weirdly useful software, you're in the right place.\n\n**Open to:** automation consulting, AI workflows, content systems, and interesting partnerships.\n\n**Reach me:** Telegram [@Mojojojomomo_hermes_bot](https://t.me/Mojojojomomo_hermes_bot)\n"
+Content = "**AI automation · trading systems · opportunity engines**\n\nI build systems that turn attention into leverage: websites, content loops, outreach, and agent workflows. If you're here for collaboration, automation, or weirdly useful software, you're in the right place.\n\n**Open to:** automation consulting, AI workflows, content systems, and interesting partnerships.\n"
 
 [params.fuseOpts]
 isCaseSensitive = false
